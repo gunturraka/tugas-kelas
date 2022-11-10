@@ -9,6 +9,6 @@ class TemplateController extends Controller
     //
     public function master()
     {
-        return view('template.masterlimbad');
+        return view('template.master');
     }
 }
