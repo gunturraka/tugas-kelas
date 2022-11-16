@@ -1,4 +1,4 @@
-@extends('template.masterlimbad')
+@extends('template.master')
 @section('judul')
 
 <h1>TABLE</h1>

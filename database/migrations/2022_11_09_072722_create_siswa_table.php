@@ -17,15 +17,14 @@ class CreateSiswaTable extends Migration
             Schema::create('siswa', function (Blueprint $table) {
                 $table->id();
                 //nis menggunakan tipe data integer
-                $table->integer('nisn');
+                $table->integer('nis');
                 //nama menggunakan tipe data varchar
                 $table->string('nama', 100);
                 //alamat  menggunakan tipe data varchar
                 $table->string('alamat', 200);
                 //menggunakan string  menggunakan tipe data varchar
-                $table->string('jenis kelamin');
+                $table->string('jenis_kelamin');
                 //menggunakan enum  menggunakan tipe data enum
-                $table->enum('kelamin', ['pejantan', 'betina']);
                 $table->timestamps();
             });
         }
